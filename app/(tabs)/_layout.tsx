@@ -1,5 +1,4 @@
 import { Tabs } from 'expo-router'
-import { View, Text } from 'react-native'
 import {Ionicons} from "@expo/vector-icons"
 import { COLORS } from '@/constants/theme'
 
@@ -14,10 +13,11 @@ export default function TabLayout() {
             tabBarStyle:{
                 backgroundColor:"black",
                 borderTopWidth: 0,
-                // position:"absolute",
+                position:"absolute",
                 elevation: 0,
-                height: 40,
+                height: 70,
                 paddingBottom: 8,
+                
             },
         }}
     >
